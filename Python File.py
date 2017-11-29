@@ -77,7 +77,7 @@ try:
     acc_callback = MyAccCallback(acc_conf)
     acc = lib.create_account(acc_conf, cb=acc_callback)
 
-    #AccCallback Class Instance
+    # AccCallback Class Instance
     acc.set_callback(acc_callback)
     print('\n\n')
     print "Registration is completed"
@@ -93,7 +93,7 @@ try:
     Destination_URI=raw_input("Enter destination URI: ")
     call = acc.make_call(Destiantion_URI, SRDialCallback())
 
-    #Client Side Waiting for ENTER Command to exit
+    # Client Side Waiting for ENTER Command to exit
     print ('Press <ENTER> to exit and destroy library')
     input = sys.stdin.readline().rstrip('\r\n')
 
