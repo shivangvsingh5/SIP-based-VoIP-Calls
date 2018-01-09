@@ -18,5 +18,5 @@ I have considered 4 call conditions, which includes -
 
 In the 2nd part of project, I developed a **Python Script** and used PJSIP library for the implementation of SIP.
 
-Also, I have calculated MoS Value of the calls between the users, by pinging them and watching the successful packet delivery from one user to the other. Although the MoS Value came out to be great since the calls were made on a LAN connection.
+Also, I have calculated MoS Value of the calls between the users, by pinging them and watching the successful packet delivery from one user to the other. Although the MoS Value came out to be great (max.) since the calls were made on a LAN connection.
 
