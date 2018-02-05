@@ -35,7 +35,6 @@ def on_media_state(self):
         print (lib)
 
 # Main loop Part
-
 try:
     # Starting
     # Creating the library instance of Lib Class
