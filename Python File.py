@@ -3,7 +3,7 @@ import pjsua as pj
 import threading
 import time
 
-# Here log is written for the call back of class
+# Log for the call back of class
 def logcallback(level, str, len):
     print(str),
 
