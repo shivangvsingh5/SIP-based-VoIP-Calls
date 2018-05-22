@@ -6,7 +6,7 @@ It is an application as well as Session Layer Protocol, depending on the functio
 
 In my project, I have used 4 machines, out of which one is one is working as a Server, while rest three are clients. The machine running as Server has a Linux OS; while clients are operated on Windows OS.
 
-I have considered 4 call conditions, which includes - 
+I have considered **four** call conditions, which includes - 
 
 1. **Call Establishment** - Call is established between client and server with different IDs.
 
